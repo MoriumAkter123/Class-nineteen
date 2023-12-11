@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(27, 27, 64);
+    color: white;
+}
+
+.header {
+
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px 10%;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.navber a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.navber a:hover {
+    color: red;
+
+}
+
+#home {
+    display: flex;
+    height: 100vh;
+    padding: 0px 10%;
+    align-items: center;
+}
+
+.content {
+    max-width: 650px;
+    background-color: rgba(22, 20, 20, 0.247);
+    padding: 10px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 1.5;
+}
+
+.content h3 {
+    color: aqua;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content p {
+    margin: 20px 0 40px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.button a {
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 150px;
+    height: 100%;
+    font-size: 600;
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 1.5px;
+
+}
+
+.button a:nth-child(2) {
+    background-color: transparent;
+    color: aqua;
+    margin-left: 15px;
+}
+
+.icons {
+
+    position: absolute;
+    bottom: 30px;
+    background: transparent;
+}
+
+.icons a {
+    display: inline-flex;
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+#contact {
+    margin-top: 50px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-form {
+    background-color: rgba(22, 20, 20, 0.247);
+    height: 400px;
+    width: 40%;
+    padding-left: 180px;
+    padding-top: 70px;
+
+
+}
+
+.input-field {
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+
+}
+
+#portfolio {
+    
+    display: flex;
+    height: 100vh;
+    padding: 0px 35%;
+    align-items: center;
+
+
+}
+
+.portfolio-field {
+
+    max-width: 650px;
+    background-color: rgba(22, 20, 20, 0.247);
+    padding-left: 10px;
+    text-align: justify;
+}
+
+#service{
+    display: flex;
+    height: 100vh;
+    padding: 0px 35%;
+    align-items: center;
+
+
+}
+
+.service-field{
+    max-width: 650px;
+    background-color: rgba(22, 20, 20, 0.247);
+    padding-left: 10px;
+    text-align: justify;
+}
+
+#about{
+    display: flex;
+    height: 100vh;
+    padding: 0px 35%;
+    align-items: center;
+
+}
+
+.about-field{
+    max-width: 650px;
+    background-color: rgba(22, 20, 20, 0.247);
+    padding-left: 10px;
+    text-align: justify;
+}
